@@ -1,0 +1,61 @@
+﻿Leleux Emma
+
+Pour ce projet, plusieurs sélecteurs complexes ont étés utilisés. 
+Pour le ficher style_commun.css, les sélecteurs complexes utilisés sont:
+
+	-li>h3 qui permet de sélectionner les éléments h3 qui sont fils direct de li.
+	 Il est situé à la ligne 8
+
+Pour le fichier style_page.css, les sélecteurs complexes utilisés sont:
+
+	-#ly qui sélectionne l'élément qui à pour id ly, ici, il s'agit d'une image
+	 Il est situé à la ligne 11 et à la ligne 57.
+	-#lyliste qui sélectionne l'élément qui à pour id lyliste, ici, il s'agit d'une image
+	 Il est situé à la ligne 20.
+	-nav#menu qui sélectionne l'élément nav qui a pour id menu.
+	 Il est situé à la ligne 24 et à la ligne 49.
+	-a.sommaire qui sélectionne les liens qui ont pour class sommaire.
+	 Il est situé à la ligne 38.
+	-nav a qui selectionne tout les liens descendant d'un nav
+	 Il est situé à la ligne 61
+	-nav>h3 qui sélectionne tout les h3 qui sont les descendant direct d'un nav
+	 Il est situé à la ligne 66
+	-ol div qui selectionne tout les div qui sont descendant d'un ol
+	 Il est situé à la ligne 70
+	-div.piste p:first-letter qui sélectionne la première lettre des p qui sont descendant d'un élément div de class piste
+	 Il est situé à la ligne 78
+	-strong.livre qui sélectionne les éléments strong de class livre
+	 Il est situé à la ligne 83
+	-div.credits qui sélectionne les div de class credits
+	 Il est situé à la ligne 89
+	-div.credits a qui selectionne les a descandant d'un div de class credits
+	 Il est situé à la ligne 92
+	-div.credits p qui sélectionne les p descendant d'un div de class credits
+	 Il est situé à la ligne 95
+
+Pour le fichier style_sommaire.css, les sélecteurs complexes utilisés sont:
+
+	-li img qui selectionne les images descendantes d'un li
+	 Il est situé à la ligne 17
+	-p:first-letter qui selectionne les premieres lettres d'un p
+	 Il est situé à la ligne 32
+
+
+les media-queries utilisées sont:
+
+	-@media screen and (min-height: 300px) and (min-width: 500px) qui permet d'insérer des règles css valables
+	 uniquement lorsque la taille de l'écran est au moins de 300px en hauteur et de 500px en largeur.
+
+	-@media screen and (max-height: 300px), (max-width: 500px) qui permet d'insérer des règles css valables
+	 uniquement lorsque la taille de l'écran est inférieur à 300px en hauteur ou inférieur à 500px en largeur.
+
+deux transitions sont présentes dans ce projet:
+
+	-une qui permet de modifier les règles css s'appliquant sur les liens lorsque l'on passe la souris dessus,
+	 ici, les liens se soulignent et changent de couleurs lorsque l'ont passe la souris dessus, à l'exeption de
+	 la page de sommaire lorsque la taille de l'écran vaut au moins 300px en hauteur et 500 px en largeur. 
+	 Dans ce cas, la lien est souligné lorsque l'on passe la souris dessus mais la couleur de varie pas.
+
+	 -une autre qui permet, sur les pages autres que le sommaire, d'avoir un menu de navigation situé sur la gauche
+	  mais se trouvant à l'extérieur de la page. Seul une petite partie du menu est ainsi visible. Lorque l'ont reste sur
+	  la partie visible plus de 0.5 secondes, le menu se dévale vers la droite est est alors visible.
