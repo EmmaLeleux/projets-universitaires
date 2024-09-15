@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=goods
+comment0.text=\nauthor\:\ Emma\ Leleux\ &\ Romain\ Le\ Guen\n
+comment1.params=nom
+comment1.target=goods(java.lang.String)
+comment1.text=\n\ constructeur\ de\ goods\ prenant\ en\ compte\ 1\ param\u00E8tre\n\ @param\ nom\ de\ type\ String\ qui\ correspond\ \u00E0\ la\ valeur\ d'initialisation\ de\ l'attribut\ name\n
+comment2.params=nom\ nombre
+comment2.target=goods(java.lang.String,\ double)
+comment2.text=\n\ constructeur\ de\ goods\ prenant\ en\ compte\ 2\ param\u00E8tres\n\ @param\ nom\ de\ type\ String\ qui\ correspond\ \u00E0\ la\ valeur\ d'initialisation\ de\ l'attribut\ name\n\ @param\ nombre\ de\ type\ double\ qui\ correspond\ \u00E0\ la\ valeur\ d'initialisation\ de\ l'attribut\ value\n
+comment3.params=
+comment3.target=double\ getValue()
+comment3.text=fonction\ getValue\ permet\ de\ retourner\ la\ valeur\ de\ value
+comment4.params=nb
+comment4.target=void\ setValue(double)
+comment4.text=fonction\ setValue,\ permet\ de\ modifier\ la\ valeur\ de\ value\n@param\ nb\ de\ type\ double,\ correspond\ \u00E0\ la\ nouvelle\ valeur\ \u00E0\ affecter\ \u00E0\ value
+comment5.params=
+comment5.target=java.lang.String\ getName()
+comment5.text=fonction\ getName\ permet\ de\ retourner\ la\ valeur\ de\ name
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ fonction\ ToString\ permet\ de\ retourner\ une\ chaine\ de\ caract\u00E8re\ dont\ la\ valeur\ est\ "the\ goods\ name\ costs\ value"\ avec\ name\ et\ value\ remplac\u00E9s\n\ par\ les\ valeur\ de\ leurs\ attributs\ respectifs\n
+comment7.params=
+comment7.target=double\ taxeInclus()
+comment7.text=\ fonction\ taxeInclus\ permet\ de\ renvoyer\ la\ valeur\ TTC\ de\ la\ marchandise\ avec\ une\ TVA\ \u00E0\ 20%\n
+numComments=8

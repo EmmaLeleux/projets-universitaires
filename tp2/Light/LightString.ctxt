@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=LightString
+comment0.text=author\:\ Emma\ Leleux\ et\ Romain\ Le\ Guen
+comment1.params=nb
+comment1.target=LightString(int)
+comment2.params=numero
+comment2.target=Lightbulb\ getUneAmpoule(int)
+comment2.text=\n\ La\ m\u00E9thode\ getUneAmpoule\ permet\ d'obtenir\ une\ ampoule\ de\ la\ guirlande\ selon\ son\ num\u00E9ro\n\ @return\ une\ ampoule\ de\ type\ Lightbulb\n
+numComments=3

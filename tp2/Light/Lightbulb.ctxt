@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Lightbulb
+comment0.text=author\:\ Leleux\ Emma\ et\ Le\ Guen\ Romain
+comment1.params=watt\ color
+comment1.target=Lightbulb(int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getPower()
+comment2.text=\n\ La\ m\u00E9thode\ getPower\ permet\ d'obtenir\ la\ puissance\ de\ l'ampoule\ (en\ Watt)\n\ @return\ un\ int\ correspondant\ \u00E0\ la\ puissance\ de\ l'ampoule\n
+comment3.params=
+comment3.target=java.lang.String\ getCouleur()
+comment3.text=\n\ La\ m\u00E9thode\ getCouleur\ permet\ d'obtenir\ la\ couleur\ de\ l'ampoule\n\ @return\ la\ couleur\ de\ l'ampoule\n
+comment4.params=
+comment4.target=boolean\ getOn()
+comment4.text=\n\ La\ m\u00E9thode\ getOn\ permet\ de\ savoir\ si\ l'ampoule\ est\ allum\u00E9e\ ou\ \u00E9teinte\n\ @return\ un\ boolean\ valant\ true\ si\ l'ampoule\ est\ allum\u00E9e,\ false\ sinon\n
+comment5.params=
+comment5.target=void\ setOn()
+comment5.text=\n\ La\ m\u00E9thode\ setOn\ permet\ de\ modifier\ la\ valeur\ de\ on,\ changeant\ ainsi\ l'\u00E9tat\ de\ l'ampoule\ de\ allum\u00E9e\ \u00E0\ \u00E9teinte\ ou\ inversement\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ La\ m\u00E9thode\ toString\ permet\ de\ renvoyer\ une\ phrase\ d\u00E9crivant\ l'ampoule\n\ @return\ un\ String\ d\u00E9crivant\ l'ampoule\n
+numComments=7

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Switch
+comment0.text=author\:\ Emma\ Leleux\ et\ Romain\ Le\ Guen
+comment1.params=light
+comment1.target=Switch(Lightbulb)
+comment1.text=\n\ le\ constructeur\ de\ la\ class\ Switch,\ permet\ de\ d\u00E9finir\ l'ampoule\ associ\u00E9e\ \u00E0\ l'interrupteur\n
+comment2.params=
+comment2.target=void\ putSwitch()
+comment2.text=\n\ La\ m\u00E9thode\ putSwitch\ permet\ de\ changer\ l'\u00E9tat\ de\ l'ampoule\ en\ appuyant\ sur\ l'interrrupteur\n
+numComments=3
